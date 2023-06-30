@@ -1,0 +1,312 @@
+.btn-main, .btn-main-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #0052FF;
+  color: white;
+  border: solid 1px #0052FF;
+  padding: 0.4rem 1rem;
+}
+.btn-main:hover, .btn-main-s:hover {
+  background-color: white;
+  color: #0052FF;
+  border: solid 1px #0052FF;
+}
+.btn-main-s {
+  font-size: 0.9rem;
+  padding: 0.3rem 1rem;
+}
+
+.btn-sec, .btn-sec-s {
+  padding: 0.25rem 1.5rem;
+  border-radius: 0.25rem;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+}
+.btn-sec:hover, .btn-sec-s:hover {
+  color: rgba(68, 68, 68, 0.2666666667);
+}
+.btn-sec-s {
+  font-size: 0.9rem;
+  padding: 0.3rem 1rem;
+}
+
+.main-menu li {
+  font-size: 0.9rem;
+  list-style: none;
+  display: inline;
+  margin-right: 2rem;
+}
+.main-menu li a {
+  text-decoration: none;
+  color: #000;
+}
+.main-menu li a:hover {
+  text-decoration: underline;
+}
+
+.icon-sm i {
+  font-size: 1.25rem;
+  padding: 0.4rem 0.65rem;
+  color: #0052FF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2196078431);
+  border-radius: 100%;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.benefit .icon {
+  color: #0052FF;
+  font-size: 7.5rem;
+}
+.benefit .description .title {
+  font-size: 1.5rem;
+}
+.benefit .description .text {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #888;
+}
+.benefit .cta {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  color: #0052FF;
+}
+
+.icon-desk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icon-desk .icon {
+  margin-top: 2rem;
+  color: #0052FF;
+  padding: 0;
+  font-size: 5.5rem;
+}
+.icon-desk .title {
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+html {
+  min-width: 100vw;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: 4rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.logo img {
+  max-width: 7rem;
+}
+
+.sec-home {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+  justify-content: space-around;
+  max-width: 1200px;
+}
+.sec-home .home-cta .cta-text {
+  color: #0052FF;
+}
+.sec-home .home-cta .cta-text a {
+  text-decoration: none;
+}
+.sec-home .home-cta .cta-text a:hover {
+  border-bottom: solid 3px #0052FF;
+  color: #0052FF;
+}
+.sec-home .home-cta .cta-text .bitcoin {
+  color: white;
+  background-color: #0052FF;
+  padding: 0 0.25rem 0.1rem 0.25rem;
+  border-radius: 100%;
+}
+.sec-home .home-cta .home-title {
+  margin-top: 1rem;
+  width: 20rem;
+  color: black;
+  font-weight: 600;
+}
+.sec-home .home-cta .home-description {
+  width: 22rem;
+}
+.sec-home .home-cta .input-array {
+  margin: 0;
+  width: auto;
+  height: 2.5rem;
+}
+.sec-home .home-img img {
+  height: 100%;
+}
+
+.sec-features {
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.sec-features .intro {
+  text-align: center;
+}
+.sec-features .intro p {
+  font-size: 1rem;
+  color: #888;
+}
+.sec-features .features {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.sec-features .features .text {
+  padding: 2rem 0;
+  flex: 1;
+}
+.sec-features .features .text .feature {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.sec-features .features .text .feature .description {
+  margin-left: 1rem;
+  max-width: 30rem;
+  text-align: left;
+}
+.sec-features .features .text .feature .description .description-title {
+  font-size: 1.15rem;
+}
+.sec-features .features .text .feature .description .description-text {
+  font-size: 1rem;
+}
+.sec-features .features .image {
+  margin: auto;
+}
+
+.sec-benefits {
+  width: 100%;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-benefits .intro {
+  text-align: center;
+}
+.sec-benefits .intro p {
+  font-size: 1rem;
+  color: #888;
+}
+.sec-benefits .benefits-cards {
+  width: 100%;
+  padding: 0 2rem 2rem 2rem 2rem;
+}
+
+.sec-kpis {
+  width: 100%;
+  background-color: #0052FF;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+.sec-kpis .kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+}
+.sec-kpis .kpi .number {
+  font-size: 4rem;
+  font-weight: 630;
+}
+.sec-kpis .kpi .desc {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6666666667);
+}
+
+.sec-onbording {
+  width: 100%;
+  margin: auto;
+  padding: 3rem;
+}
+.sec-onbording .intro {
+  text-align: center;
+}
+.sec-onbording .intro p {
+  font-size: 1rem;
+  color: #888;
+}
+.sec-onbording .steps {
+  padding: 0 7rem 5rem 7rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+  margin: auto;
+}
+.sec-onbording .steps .step-separator {
+  flex: 1;
+  border-top: 2px solid #ddd;
+  margin: 0 1rem;
+}
+
+.sec-footer-cta {
+  background-color: #f4f8fe;
+  padding: 5rem;
+  background-image: url("../assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  text-align: justify;
+}
+.sec-footer-cta .footer-cta {
+  width: 40%;
+}
+.sec-footer-cta .footer-cta .cta-title {
+  font-size: 2.2rem;
+}
+.sec-footer-cta .footer-cta .cta-des {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 780px) {
+  .sec-onbording .steps {
+    flex-direction: column;
+  }
+  .sec-onbording .steps .icon-desc .title {
+    text-align: center;
+  }
+  .sec-footer-cta {
+    background-image: none;
+  }
+  .sec-footer-cta .footer-cta {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+}
+@media (min-width: 1000px) {
+  .sec-footer-cta .footer-cta {
+    padding: 0 0 0 10%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
